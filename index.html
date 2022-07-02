@@ -11,42 +11,43 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <div class = "container">
+    <div class="container">
       <div class="weater-app">
-      <h1>New York, USA</h1>
-      <ul>
-        <li>Friday, 05:00</li>
-        <li>Clear</li>
-      </ul>
-      <div class="row">
-        <div class="col-sm-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="Partly cloudy"
-          />
-          12°С | °F
+        <h1>New York, USA</h1>
+        <ul>
+          <li>Friday, 05:00</li>
+          <li>Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="Partly cloudy"
+            />
+            12°С | °F
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>Precipitation: 0%</li>
+              <li>Humidity: 73%</li>
+              <li>Wind: 2 km/h</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-sm-6">
-          <ul>
-            <li>Precipitation: 0%</li>
-            <li>Humidity: 73%</li>
-            <li>Wind: 2 km/h</li>
-          </ul>
-        </div>
+        <small>
+          <a
+            href="https://github.com/annaknish/vanilla-weather-app"
+            target="_blank"
+            >Open-sourse code </a
+          >by Anna Knysh
+        </small>
       </div>
-      <small>
-        <a
-          href="https://github.com/annaknish/vanilla-weather-app"
-          target="_blank"
-          >Open-sourse code </a
-        >by Anna Knysh
-        </div>
-      </small>
     </div>
+
     <script src="src/app.js"></script>
   </body>
 </html>
